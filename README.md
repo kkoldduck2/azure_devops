@@ -53,3 +53,6 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/fastapi-ci-cd:latest
+
+
+참고) https://github.com/docker/login-action
